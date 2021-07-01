@@ -7,11 +7,15 @@
 
 :root {
     --modern: 'Montserrat', sans-serif;
-    --dark: #18191F;
+    --dark: #022140;
     --light: #fff;
     --secondary: #D9DBE1;
-    --color: #D6B1FF;
-    --muted: #48c6af;
+    --color: #265077;
+    --muted: #494B68;
+}
+
+body{
+    font-size: 30px;
 }
 
 
@@ -19,20 +23,45 @@ h1,
 h2, 
 h3, 
 h4,
+h5,
 p,
 span,
 form,
+a,
 li{
     font-family: var(--modern);
+}
+
+h1{
+    font-size:200%;
+}
+
+h2{
+    font-size: 175%;
+}
+h3{
+    font-size: 150%;
+}
+
+h4{
+    font-size: 125%;
+}
+
+h5{
+    font-size: 100%;
+}
+
+p, a{
+    font-size: 70%;
 }
 
 .think_text{
     font-weight: 200;
 }
 
-h1{
+/* h1{
     font-weight: 600;
-}
+} */
 
 /* Header from a YouTube tutorial */
 .header{
@@ -41,6 +70,8 @@ h1{
     display: block;
     background-color: var(--dark);
     border-bottom: none;
+    position: relative;
+    z-index: 1;
   
 }
 
@@ -54,16 +85,15 @@ h1{
 }
 
 .logo_container h1{
+    font-size: 175%;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
 .logo_container h1, h2 {
-    color: white;
-    height: 100%;
-    font-family: var(--modern);
-    font-size: 32px;
+    color:var(--light);
+
    
 }
 
@@ -95,49 +125,38 @@ h1{
     font-family: var(--modern);
 }
 
-main{
-    display: block;
-    margin: 0 10%;
+.navigation a li:hover{
+    color: orangered
 }
-
-.about{
-    width: 100%;
-    margin-top: 0px;
-    background-color: var(--light);
-    display: flex;
-    padding-left: 10px;
-}
-
-.about h2, .work h2{
-    color: var(--color);
-    font-weight: 900;
-}
-
-.work{
-    z-index: -1;
-    display: flex;
-    margin-left: 14px;
-    padding-left: 10px;
-}
-
-
 
 .hero_img{
     width: 100%;
-    height: 400px;
-    background-image: url(./Images/header1.png);
+    height: 500px;
+    background-image: url(./Images/dev_header.jpg);
     background-repeat: no-repeat;
     background-size: cover;   
-    margin-top: 94px;
+    margin-top: 120px;
     position: relative;
     z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  
+}
+
+.hero_img_bg{
+    display: flex;
+    height: 20px;
+    width: 100px;
+    background-color: red;
 }
 
 /* a message another message */
 
-.hero_img h3{
-    font-size:18pt;
-    background-color: var(--color);
+.hero_img h2{
+    background-color: var(--light));
     padding: 25px;
     margin-left: 20px;
     border-radius: 15px;
@@ -150,71 +169,28 @@ main{
 }
 
 #headshot{
-    
-
 }
 
-main h2{
-    padding: 0px 0px;
-    color: var(--dark);
-    text-align: right;
+.about_container{
     display: flex;
-    font-family: var(--modern);
+    justify-content: space-around;
+    align-items: center;
 }
 
-main h2{
-    margin-top: 20px;
-    padding-right: 10px;
+.about_text{
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 
+.about_img{
+margin-right: 10%;
+margin-top: 50px;
+margin-bottom: 50px;
 
-
-.content_box{
-    padding-left: 25px;
-    margin: 25px 25px 25px 0px;
-    border-left: 2px var(--dark) solid;
-    z-index: -1;
 }
 
-.content_box_2{
-    padding-left: 25px;
-    margin: 25px 25px 25px 0px;
-    border-left: 2px var(--dark) solid;
-}
-
-#large_port_img, #small_port_img_l, #small_port_img_r{
-    width: 100%;
-    border: var(--muted) 8px solid;
-}
-
-.large_portfolio_img{
-    position: relative;
-}
-
-
-
-.large_portfolio_img h3{
-background-color: var(--muted);
-color: var(--light);
-position: absolute;
-padding: 20px;
-top: 50%;
-}
-
-#small_port_img_l{
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
-#small_port_img_r{
-    margin-right: 0px;
-    margin-top: 10px;
-}
-
-.two_img_box{
-display: flex;
-margin: 0px 0px 0px 0px;
-}
 
 
 
@@ -258,6 +234,65 @@ form{
     bottom: 20px;
 
 }
+
+.work a{
+    color:var(--secondary);
+    text-align: right;
+}
+
+.work a:hover{
+    color:orangered;
+    text-align: right;
+}
+
+.port1_container{
+    background-color: var(--muted);
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+
+  .port2_container{
+    background-color: var(--dark);
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+  }
+
+  .port_img_box{
+      margin: 50px;
+
+  }
+
+  .port_text_box{
+      margin: 50px;
+ 
+  }
+  
+  .port_img_box img{
+    height: 450px;
+    filter: drop-shadow(0 0 0.75rem #101010);
+    position: relative;
+   
+  }
+
+  .port1_container h5, .port2_container h5{
+      color: var(--light);
+      font-weight: 900;
+  }
+
+  .port1_container p, .port2_container p{
+    color: var(--light);
+    font-weight: 100;
+    margin-bottom: 20px;
+
+}
+  
+ 
 
 
 /* Footer Formatting */

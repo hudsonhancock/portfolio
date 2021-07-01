@@ -4,7 +4,9 @@
     <link rel="stylesheet" href="./Assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Hudson's Portfolio</title>
 
@@ -17,7 +19,6 @@
          <ul class="links">
              <a href="mailto:hudsonhancock@gmail.com"><li>hudsonhancock@gmail.com</li></a>
              <a href="tel:7704908280"><li>(770)490-8280</li></a>
-             <li></li>
          </ul>
      </nav>
 
@@ -35,54 +36,77 @@
                  <a href="https://github.com/hudsonhancock"><li>GitHub</li></a>
                  <a href="#work"> <li>Portfolio</li></a>
                  <a href="#contact_form"><li>Contact</li></a>
-
              </ul>
+
          </div>
      </div>
  </div>
 
             <header class="hero_img">
-                <div class="hudson_talking_container">
-                    <h3 id="hero_text">Hello there! My name is Hudson.</h3>
-                <img id="about" id="headshot" src="./Assets/Images/hudson.png" alt="hudson hancock web development">
-            </div>
+                <h2>Full Stack Web Developer</h2>
             </header>
 
- <main>
-            <section class="about">
-                <h2>About</h2>
-               <div class="content_box_2">
-                <p id="work">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora non in, explicabo accusamus excepturi aliquam nesciunt molestias numquam perspiciatis, alias nobis assumenda aspernatur accusantium totam, laborum aut facilis officia minima?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora non in, explicabo accusamus excepturi aliquam nesciunt molestias numquam perspiciatis, alias nobis assumenda aspernatur accusantium totam, laborum aut facilis officia minima?</p><br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora non in, explicabo accusamus excepturi aliquam nesciunt molestias numquam perspiciatis, alias nobis assumenda aspernatur accusantium totam, laborum aut facilis officia minima?</p>
-            </div>
+    <main>
+        <section class="about">
+            <div class="about_container">
+                
+                <section class="about_text">
+                    <h3 id="hero_text">Hello there! My name is Hudson.</h3> 
+                    <p id="work">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora non in, explicabo accusamus excepturi aliquam nesciunt molestias numquam perspiciatis, alias nobis assumenda aspernatur accusantium totam, laborum aut facilis officia minima?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora non in, explicabo accusamus excepturi aliquam nesciunt molestias numquam perspiciatis, alias nobis assumenda aspernatur accusantium totam, laborum aut facilis officia minima?</p><br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora non in, explicabo accusamus excepturi aliquam nesciunt molestias numquam perspiciatis, alias nobis assumenda aspernatur accusantium totam, laborum aut facilis officia minima?</p>
+                </section>
+
+        <section class="about_img">
+                <img id="about" id="headshot" src="./Assets/Images/hudson.png" alt="hudson hancock web development">
             </section>
+            </div>
+            
+            <div class="content_box_2"></div>
+            
+            </div>
+        </section>
 
             <section class="work">
-                <h2>Work</h2>
-               <div class="content_box">
-                   <div class="large_portfolio_img">
-                    <h3>Project 1</h3>
-                    <img id="large_port_img" src="https://via.placeholder.com/1000x300" alt="">
-                     </div>
-                    
-              
-                     <div class="two_img_box">
-                         <img id="small_port_img_l" src="https://via.placeholder.com/450x300" alt="">
-                         <img id="small_port_img_r" src="https://via.placeholder.com/450x300" alt="">
-                     </div>
-                        
-                     
-                     <div class="two_img_box">
-                        <img id="small_port_img_l" src="https://via.placeholder.com/450x300" alt="">
-                        <img id="small_port_img_r" src="https://via.placeholder.com/450x300" alt="">
-                    </div>
-            </section>
+                <section class ="port1_container">
+                    <section class="port_img_box">
+                      <img src="./Assets/Images/work/excel.jpg" alt="screenshot">
+                    </section>
+                    <section class="port_text_box">
+                     <h5>Excel Electrical Technologies, Inc.</h5>
+                     <p>Excel needed a site refresh and an easy way for users to show interest in their electrician apprenticeship program. I was able to modernize their design and create an online form connected to a database accesible by their HR department.</p>
+                     <a href="https://www.excelelectrical.com/">Visit excelelectrical.com &rarr;</a>
+                    </section>
+                  </section>
+                  
+                  <section class ="port2_container">
+                    <section class="port_text_box">
+                     <h5>Fleas Tees</h5>
+                     <p>Excel needed a site refresh and an easy way for users to show interest in their electrician apprenticeship program. I was able to modernize their design and create an online form connected to a database accesible by their HR department.</p>
+                     <a href="https://www.fleastees.com/">Visit fleastees.com &rarr;</a>
+                    </section>
+                    <section class="port_img_box">
+                        <img src="./Assets/Images/work/fleastees.jpg" alt="screenshot">
+                      </section>
+                  </section>
+
+                  <section class ="port1_container">
+                    <section class="port_img_box">
+                      <img src="./Assets/Images/work/tcp.jpg" alt="screenshot">
+                    </section>
+                    <section class="port_text_box">
+                     <h5>Toronto Church Planting</h5>
+                     <p>Excel needed a site refresh and an easy way for users to show interest in their electrician apprenticeship program. I was able to modernize their design and create an online form connected to a database accesible by their HR department.</p>
+                     <a href="https://torontochurchplanting.ca/">Visit torontochurchplanting.ca &rarr;</a>
+                    </section>
+                  </section>
+          
+
         </main>
             
             <!-- Contact form --> 
                     <section class="contact_form">
                         <form>
-                            <h3>Contact Me</h3>
+                            <h2>Contact Me</h2>
                             <label for="fname">Name:</label>
                             <input type="text" id="fname" name="fname"><br>
 
