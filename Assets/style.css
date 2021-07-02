@@ -93,6 +93,7 @@ p, a{
 
 .logo_container h1, h2 {
     color:var(--light);
+    text-align: center;
 
    
 }
@@ -126,7 +127,15 @@ p, a{
 }
 
 .navigation a li:hover{
+    transition: 0.3s;
     color: orangered
+}
+
+.sticky_nav{
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1;
 }
 
 .hero_img{
@@ -136,13 +145,11 @@ p, a{
     background-repeat: no-repeat;
     background-size: cover;   
     margin-top: 120px;
-    position: relative;
-    z-index: -1;
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
+    /* filter: blur(0px);
+    -webkit-filter: blur(0px); */
   
 }
 
@@ -178,9 +185,7 @@ p, a{
 }
 
 .about_text{
-    margin-left: 10%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 10%;
 
 }
 
@@ -188,6 +193,8 @@ p, a{
 margin-right: 10%;
 margin-top: 50px;
 margin-bottom: 50px;
+display: flex;
+justify-content: center;
 
 }
 
@@ -325,11 +332,6 @@ form{
     padding: 6px 0 6px 50px;
 }
 
-.sticky_nav{
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-}
 
 .links li{
     text-decoration: none;
@@ -341,18 +343,30 @@ form{
     
 }
 
-@media screen and (max-width:786px) {
+@media screen and (max-width:1229px) {
     .navigation{
         background-color: var(--muted);
         width: 100%;
         display: none;
        
     }
-}
-@media screen and (max-width:786px) {
-    .two_img_box{
+    .logo_container h1{
+        font-size: 125%;
+    }
+    .about_container{
         display: block;
     }
+    .about_container h3{
+        font-size: 100%;
+        margin-bottom: 20px;
+    }
+    .about_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:786px) {
 }
 
 @media screen and (max-width: 860px) {
@@ -368,4 +382,6 @@ form{
         position: relative;
     }
 }
+
+
 
