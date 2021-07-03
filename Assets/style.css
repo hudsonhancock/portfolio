@@ -12,6 +12,7 @@
     --secondary: #D9DBE1;
     --color: #265077;
     --muted: #494B68;
+    --orange: orangered;
 }
 
 body{
@@ -39,6 +40,7 @@ h1{
 h2{
     font-size: 175%;
 }
+
 h3{
     font-size: 150%;
 }
@@ -58,6 +60,16 @@ p, a{
 .think_text{
     font-weight: 200;
 }
+
+::selection {
+    background: var(--orange); /* WebKit/Blink Browsers */
+    color: var(--light);
+  }
+  ::-moz-selection {
+    background: var(--orange); /* Gecko Browsers */
+    color: var(--light);
+  }
+
 
 /* h1{
     font-weight: 600;
@@ -124,6 +136,7 @@ p, a{
     height: 100%;
     color: var(--light);
     font-family: var(--modern);
+    font-size: 80%;
 }
 
 .navigation a li:hover{
@@ -190,13 +203,14 @@ p, a{
 }
 
 .about_img{
-margin-right: 10%;
 margin-top: 50px;
 margin-bottom: 50px;
 display: flex;
 justify-content: center;
 
 }
+
+
 
 
 
@@ -248,7 +262,7 @@ form{
 }
 
 .work a:hover{
-    color:orangered;
+    color:var(--orange);
     text-align: right;
 }
 
@@ -365,8 +379,21 @@ form{
         justify-content: center;
         align-items: center;
     }
-}
-@media screen and (max-width:786px) {
+    .port1_container, .port2_container{
+        display: flex;
+        flex-direction: column;
+        padding: 10% 10%;
+        
+    }
+   
+    .port_img_box{
+        margin: 0;
+        padding-top:50px;
+    }
+    .port_text_box{
+        margin: 0px;
+    }
+
 }
 
 @media screen and (max-width: 860px) {
@@ -380,6 +407,19 @@ form{
         align-items: center;
         justify-content: center;
         position: relative;
+    }
+    .port1_container img, .port2_container img {
+      width: 70%;
+      height: 90%;
+
+        
+    }
+
+}
+
+@media screen and (max-width: 405px) {
+    .header h1{
+        font-size: 90%;
     }
 }
 
