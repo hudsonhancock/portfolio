@@ -8,6 +8,7 @@
 :root {
     --modern: 'Montserrat', sans-serif;
     --dark: #022140;
+    --darker: #000d1a;
     --light: #fff;
     --secondary: #D9DBE1;
     --color: #265077;
@@ -144,6 +145,31 @@ p, a{
     color: orangered
 }
 
+#hero_text{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.about{
+    background-color: var(--darker);
+}
+
+.port_text_box a:hover{
+    transition: 0.3s;
+    color: orangered
+}
+
+.port_text_box a:hover{
+    transition: 0.3s;
+    background-color: var(--light);
+}
+
+.port_text_box a{
+    border: var(--light) 1px solid;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
 .sticky_nav{
     position: fixed; 
     top: 0; 
@@ -199,6 +225,7 @@ p, a{
 
 .about_text{
     margin: 50px 10%;
+    color:var(--light);
 
 }
 
@@ -209,11 +236,6 @@ display: flex;
 justify-content: center;
 
 }
-
-
-
-
-
 
 .contact_form{
     width: 100%;
