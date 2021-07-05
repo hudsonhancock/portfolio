@@ -48,13 +48,15 @@
 
     <main>
         <section class="about">
+            <div class="heading_dark"> <h3>About</h3> </div>
             <div class="about_container">
                 <section class="about_text">
                     <h3 id="hero_text">Hello there! My name is Hudson.</h3> 
                     <section class="about_img">
                             <img id="about" id="headshot" src="./Assets/Images/hudson.png" alt="hudson hancock web development">
                         </section>
-                    <p id="work">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora non in, explicabo accusamus excepturi aliquam nesciunt molestias numquam perspiciatis, alias nobis assumenda aspernatur accusantium totam, laborum aut facilis officia minima?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora non in, explicabo accusamus excepturi aliquam nesciunt molestias numquam perspiciatis, alias nobis assumenda aspernatur accusantium totam, laborum aut facilis officia minima?</p><br>
+                    <p id="work">I'm a web developer with from Atlanta GA.</p> 
+                    <p id="work">I create custom websites to help business do their best online.</p><br>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora non in, explicabo accusamus excepturi aliquam nesciunt molestias numquam perspiciatis, alias nobis assumenda aspernatur accusantium totam, laborum aut facilis officia minima?</p>
                 </section>
 
@@ -67,6 +69,9 @@
 
             <section class="work">
                 <section class ="port1_container">
+                    <div class="heading_light">
+                    <h3>Hudson's Work</h3>
+                </div>
                     <section class="port_img_box">
                       <img src="./Assets/Images/work/excel.jpg" alt="screenshot">
                     </section>
@@ -78,17 +83,17 @@
                   </section>
                   
                   <section class ="port2_container">
+                      <section class="port_img_box">
+                          <img src="./Assets/Images/work/fleastees.jpg" alt="screenshot">
+                        </section>
                     <section class="port_text_box">
-                     <h5>Fleas Tees</h5>
-                     <p>Using simple, clean, and modern design elements, Hudson refreshed the website’s look and feel while making it even easier for users to contact FleasTees.
-                        The homepage features a row of icons (quote, services, etc.) to improve usability. The project was coded from wire-frames provided by the client.
-                        The client wanted social media on the homepage to show updated work. By applying typography best practices sitewide, making everything look clean and professional.
-                        The site is also optimize for tablet and mobile viewers.</p>
+                        <h5>Fleas Tees</h5>
+                        <p>Using simple, clean, and modern design elements, Hudson refreshed the website’s look and feel while making it even easier for users to contact FleasTees.
+                           The homepage features a row of icons (quote, services, etc.) to improve usability. The project was coded from wire-frames provided by the client.
+                           The client wanted social media on the homepage to show updated work. By applying typography best practices sitewide, making everything look clean and professional.
+                           The site is also optimize for tablet and mobile viewers.</p>
                      <a href="https://www.fleastees.com/">Visit fleastees.com &rarr;</a>
                     </section>
-                    <section class="port_img_box">
-                        <img src="./Assets/Images/work/fleastees.jpg" alt="screenshot">
-                      </section>
                   </section>
 
                   <section class ="port1_container">
@@ -106,32 +111,20 @@
         </main>
             
             <!-- Contact form --> 
-                    <section class="contact_form">
-                        <form>
-                            <h2>Contact Me</h2>
-                            <label for="fname">Name:</label>
-                            <input type="text" id="fname" name="fname"><br>
-
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email"><br>
-
-                            <div class="container_button">
-                            <input type="button" id="submit" name="submit" value="Send">
+                    <section class="contact_container">
+                        
+                            <div class="contact_heading">
+                                <h2>Contact Me</h2>
                             </div>
-                        </form>
-                    </section>
+                            <div class="form_box">
+                                <label>Name</label><br>
+                                <input type="text" placeholder="Name" name="name"><br>
+                                <label>Email</label><br>
+                                <input type="email" placeholder="Enter a valid email address" name="email"><br>
+                                        <input type="submit" id="form_button">
+                                    </div> 
+                       
         </div>
-    </div>
-
-    
-
-    <!-- <div class="footer_container">
-        <footer id="footer">
-            <p>© 2021 Hudson Hancock</p>    
-        </footer>
-    </div> -->
-
-</div>
 </body>
 </html>
 

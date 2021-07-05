@@ -20,6 +20,11 @@ body{
     font-size: 30px;
 }
 
+#work{
+    font-weight: 900;
+    font-size: 100%;
+}
+
 
 h1, 
 h2, 
@@ -30,6 +35,7 @@ p,
 span,
 form,
 a,
+label,
 li{
     font-family: var(--modern);
 }
@@ -149,9 +155,12 @@ p, a{
     text-align: center;
     margin-bottom: 0px;
 }
-
 .about{
-    background-color: var(--darker);
+    background-color: var(--light);
+    background-image: url(./Images/cool-background.png);
+    background-repeat: none;
+    background-size: cover;
+    padding: 50px 0px;
 }
 
 .port_text_box a:hover{
@@ -221,11 +230,14 @@ p, a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
 }
 
+
+
 .about_text{
-    margin: 50px 10%;
-    color:var(--light);
+    margin: 0px 10%;
+    color:var(--dark);
 
 }
 
@@ -237,46 +249,72 @@ justify-content: center;
 
 }
 
-.contact_form{
-    width: 100%;
+.port1_container{
     position: relative;
-    background-color: var(--muted);
-    border-top: 4px --dark solid;
 }
 
-form{
-    height:200px;
-    width: 400px;
-    position: absolute; 
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    width: 100px;
-
+.port1_container a, .port2_container a{
+    color: var(--orange)
 }
 
-
-
-
-.container_button{
-    
-}
-
-.contact_form h3{
-    font-size: 12pt;
-}
-#submit{
-    background-color: var(--color);
-    color:var(--light);
-    border: 2px solid var(--light);
-    padding: 10px 20px;
-    margin: 10px 15px;
+.heading_light{
     position: absolute;
-    left: 100px;
-    bottom: 20px;
-
+    top: 0;
+    left: 0;
+    padding: 0% 3%;
+    margin-top: 0px;
+    font-size: 175%;
+    text-transform: uppercase;
+    color: var(--light);
 }
+
+.heading_dark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0% 3%;
+    margin-top: 0px;
+    font-size: 175%;
+    text-transform: uppercase;
+    color: var(--light);
+}
+
+.contact_container{
+    height: 350px;
+    width: 100%;
+    padding: 25px;
+    position: relative;
+    display: flex;
+    background-image: url('https://designslabpro.com/wp-content/uploads/2018/02/section-header-bg.jpg');
+    flex-direction: column;
+}
+
+.form_box{
+    position: absolute;
+    right:50%;
+    top: 100px;
+    margin-top:25px;
+}
+
+.contact_heading h2{
+    color: var(--light);
+    text-align: center;
+    padding-top: 25px;
+}
+
+.form_box label{
+    color: var(--light);
+}
+
+.form_box input{
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+]
+
+
+
+
 
 .work a{
     color:var(--secondary);
@@ -335,6 +373,24 @@ form{
 
 }
   
+
+#form_button{
+    background-color: var(--orange);
+    color: var(--light);
+    padding: 10px 50px;
+    margin-top:20px;
+    font-family: var(--modern);
+    font-weight: 900;
+}
+
+#form_button:hover{
+    background-color: greenyellow;
+    color: var(--darker);
+    padding: 10px 50px;
+    margin-top:20px;
+    transition: 0.3s;
+
+}
  
 
 
@@ -436,6 +492,9 @@ form{
 
         
     }
+    .heading_light{
+    display: none;
+    }
 
 }
 
@@ -443,6 +502,19 @@ form{
     .header h1{
         font-size: 90%;
     }
+    .heading_light{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0% 3%;
+        margin-top: 0px;
+        font-size: 175%;
+        text-transform: uppercase;
+        color: var(--light);
+    }
+    .heading_light{
+        display: none;
+        }
 }
 
 
