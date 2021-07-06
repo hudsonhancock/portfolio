@@ -8,12 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hudson's Portfolio</title>
 
          
 </head>
 <body>
 
+<div class="site_wrapper">
     <div class="sticky_nav">
      <nav class="navbar">
          <ul class="links">
@@ -27,104 +29,104 @@
      <div class="header">
          <div class="inner_header">
              <div class="logo_container">
-                 <h1><span class="think_text">HUDSON</span>HANCOCK</h1>
+                 <h1><span class="light_text">HUDSON</span>HANCOCK</h1>
              </div>
 
              <ul class="navigation">
                 <a href='#'><li>Home</li></a>
                 <a href="#about"><li>About</li></a>
                  <a href="https://github.com/hudsonhancock"><li>GitHub</li></a>
-                 <a href="#work"> <li>Portfolio</li></a>
-                 <a href="#contact_form"><li>Contact</li></a>
+                 <a href="#portfolio"> <li>Portfolio</li></a>
+                 <a href="#contact"><li>Contact</li></a>
              </ul>
 
          </div>
      </div>
  </div>
+ <nav class="mobile_nav">
+    <nav class="mobile_nav_links">
+   <a href="#home">Home</a><br>
+   <a href="#about">About</a><br>
+   <a href="#portfolio">Portfolio</a><br>
+   <a href="https://github.com/hudsonhancock">GitHub</a><br>
+   <a href="#contact">Contact Me</a><br>
+  </nav>
+</nav>
+
 
             <header class="hero_img">
                 <h2>Full Stack Web Developer</h2>
             </header>
 
     <main>
-        <section class="about">
-            <div class="heading_dark"> <h3>About</h3> </div>
+        <h2 class="section_heading">About</h2>
+
+        <section id="about" class="about">
             <div class="about_container">
                 <section class="about_text">
                     <h3 id="hero_text">Hello there! My name is Hudson.</h3> 
                     <section class="about_img">
-                            <img id="about" id="headshot" src="./Assets/Images/hudson.png" alt="hudson hancock web development">
+                            <img id="headshot" src="./Assets/Images/hudson.png" alt="hudson hancock web development">
                         </section>
-                    <p id="work">I'm a web developer with from Atlanta GA.</p> 
-                    <p id="work">I create custom websites to help business do their best online.</p><br>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora non in, explicabo accusamus excepturi aliquam nesciunt molestias numquam perspiciatis, alias nobis assumenda aspernatur accusantium totam, laborum aut facilis officia minima?</p>
+                    <p id="work">I'm a web developer with from Atlanta GA.</p> <br>
+                    <p id="work">I create custom websites to help businesses do their best online.</p><br>
+                    <p id="about_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora non in, explicabo accusamus excepturi aliquam nesciunt molestias numquam perspiciatis, alias nobis assumenda aspernatur accusantium totam, laborum aut facilis officia minima?</p>
                 </section>
 
             </div>
-            
-            <div class="content_box_2"></div>
-            
-            </div>
+        
         </section>
 
-            <section class="work">
-                <section class ="port1_container">
-                    <div class="heading_light">
-                    <h3>Hudson's Work</h3>
-                </div>
-                    <section class="port_img_box">
-                      <img src="./Assets/Images/work/excel.jpg" alt="screenshot">
-                    </section>
-                    <section class="port_text_box">
-                     <h5>Excel Electrical Technologies, Inc.</h5>
-                     <p>Excel needed a site refresh and an easy way for users to show interest in their electrician apprenticeship program. I was able to modernize their design and create an online form connected to a database accesible by their HR department.</p>
-                     <a href="https://www.excelelectrical.com/">Visit excelelectrical.com &rarr;</a>
-                    </section>
-                  </section>
-                  
-                  <section class ="port2_container">
-                      <section class="port_img_box">
-                          <img src="./Assets/Images/work/fleastees.jpg" alt="screenshot">
-                        </section>
-                    <section class="port_text_box">
-                        <h5>Fleas Tees</h5>
-                        <p>Using simple, clean, and modern design elements, Hudson refreshed the website’s look and feel while making it even easier for users to contact FleasTees.
-                           The homepage features a row of icons (quote, services, etc.) to improve usability. The project was coded from wire-frames provided by the client.
-                           The client wanted social media on the homepage to show updated work. By applying typography best practices sitewide, making everything look clean and professional.
-                           The site is also optimize for tablet and mobile viewers.</p>
-                     <a href="https://www.fleastees.com/">Visit fleastees.com &rarr;</a>
-                    </section>
-                  </section>
+       
+        
+        <h2 id="portfolio" class="section_heading">My Work</h2>
 
-                  <section class ="port1_container">
-                    <section class="port_img_box">
-                      <img src="./Assets/Images/work/tcp.jpg" alt="screenshot">
-                    </section>
-                    <section class="port_text_box">
-                     <h5>Toronto Church Planting</h5>
-                     <p>Originally, TCP website was difficult to navigate and lacked a consisent design. This redesign was an opportunity to create a space solely for Toronto Church Planting. Hudson accomplished this by building out a simple site architecture with the basic pages that aim to communicate the company's mission.</p>
-                     <a href="https://torontochurchplanting.ca/">Visit torontochurchplanting.ca &rarr;</a>
-                    </section>
-                  </section>
-          
+        <div class="main-content">
+            <div class="portfolio">
+             <div class="portfolio-item large excel"><a class="portfolio_item_text" href="https://excelelectrical.com/"><h2>Electrical Technologies</h2></a></div>
+            <div class="portfolio-item small fleastees"><a class="portfolio_item_text" href="https://fleastees.com/"><h2>FleasTees</h2></a></div>
+              <div class="portfolio-item small toronto"><a class="portfolio_item_text" href="https://torontochurchplanting.ca/"><h2>TCP</h2></a></div>
+          </div>
 
         </main>
             
             <!-- Contact form --> 
+            <h2 id="contact" class="section_heading">Contact Me</h2>
                     <section class="contact_container">
-                        
-                            <div class="contact_heading">
-                                <h2>Contact Me</h2>
-                            </div>
                             <div class="form_box">
                                 <label>Name</label><br>
                                 <input type="text" placeholder="Name" name="name"><br>
                                 <label>Email</label><br>
                                 <input type="email" placeholder="Enter a valid email address" name="email"><br>
+                                <br>
                                         <input type="submit" id="form_button">
                                     </div> 
+                    </section>
                        
         </div>
+
+        <footer>
+            <section class="logo_container_2">
+                <div class="footer_logo">
+                    <h1><span class="light_text">HUDSON</span>HANCOCK</h1>
+                    <a class="footer_phone" href="tel:7704908280">&phone; (770)490-8280</a><br>
+                    <a class="footer_email" href="mailto:hudsonhancock@gmail.com">&#128231; hudsonhancock@gmail.com</a>
+                </div>
+                
+            </section>
+
+            <section class="footer_nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact Me</a>
+                <a href="https://github.com/hudsonhancock">GitHub</a>
+             </section>
+
+
+
+        </footer>
+    </div>
 </body>
 </html>
 
