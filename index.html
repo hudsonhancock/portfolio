@@ -2,17 +2,12 @@
 <html lang="en">
 
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="./Assets/style/style.css">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-
-
+    <link rel="stylesheet" href="./Assets/style/style.css">
+    <link rel="stylesheet" href="./Assets/style/home.css">
+    <title>Hudson Hancock</title>
 </head>
 
 <body>
@@ -21,65 +16,18 @@
             alt="Hudson's logo. White circle with uppercase H in the middle">
     </nav>
 
-    <section class="about-intro">
-        <h2 class="text-color">I work to build dynamic, mobile-first websites.</h2>
-        <p class="text-light">The web is such a vital part to our lives. That’s why I get excited about contributed to
-            something that’s
-            benefited me so much. I love web development because everyday I’m solving problems that have a direct impact
-            of people’s lives.</p>
-    </section>
-
-    <section class="gt-bootcamp">
-        <div class="card">
-            <h1 class="text-color">I am completing a <span class="text-dark" id="full-stack">full-stack software
-                    engineering</span> program
-                at Georgia Tech.
-            </h1>
-            <p>Graduation Date: December 7th, 2021</p>
-            <h5>I will be certified in:</h5>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>Express.js</li>
-                <li>React.js</li>
-                <li>Node.js</li>
-                <li>MongoDB</li>
-                <li>MySQL</li>
-                <li>Git</li>
-                <li>and more.</li>
-            </ul>
+    <section class="welcome">
+        <h2 class="text-color">Hello there.</h2>
+        <h2 id="name-text" class="text-color">My name is <span class="text-light">Hudson Hancock.</span></h2>
+        <h2 class="text-color" id="location-text">I am a web developer from <span class="text-light"> Atlanta Ga.</span>
+        </h2>
+        <img id="avatar" src="./Assets/Images/hudson-avatar-happy.png" alt="">
+        <button id="nav-btn">Open Menu</button>
+        <div class="hide" id="menu">
+            <button class="menu-buttons">About</button>
+            <button class="menu-buttons">Showcase</button>
+            <button class="menu-buttons">Contact</button>
         </div>
-    </section>
-
-    <section class="lee">
-        <div class="card2">
-            <h1 class="text-light">I graduated from <span class="text-dark">Lee University</span> with a BA in
-                <span class="text-dark">Digital Media.</span>
-            </h1>
-            <p class="text-light">Graduation Date: Spring of 2014</p>
-        </div>
-    </section>
-
-    <section class="see-my-work">
-        <div class="card3">
-            <h3 class="text-light">Want to see some of my work?</h3>
-            <p class="text-light">I’ve made a collection of the work that’d I’d love for you to view. Feel free to
-                contact me and ask any
-                questions.</p>
-            <button class="inbound-card-btn">Showcase</button>
-        </div>
-    </section>
-
-    <section class="get-to-know-me">
-        <div class="card3">
-            <h3 class="text-light">Want to learn more about me?</h3>
-            <p class="text-light">I wrote a program that enables you to choose what you want to learn about me. Give it
-                a shot!</p>
-            <button class="inbound-card-btn">Open App</button>
-        </div>
-
     </section>
 
     <footer>
@@ -99,7 +47,7 @@
 
     <canvas class="background"></canvas>
     <script src=" https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
-    <script src="./Assets/script/app.js"></script>
+
 </body>
 
 </html>
