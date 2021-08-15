@@ -11,6 +11,10 @@
     --otherDark: #2B2135;
 }
 
+.hide{
+    display: none;
+}
+
 
 .welcome{
     height: 715px;
@@ -33,7 +37,7 @@ footer{
 }
 
 #nav-btn{
-    position: absolute;
+    position: fixed;
     bottom: 100px;
     background-color: var(--color);
     color: var(--light);
@@ -45,6 +49,10 @@ footer{
     font-weight: 900;
     border: none;
     font-size: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #avatar{
@@ -56,14 +64,24 @@ footer{
 }
 
 #up-arrow{
+    font-size: 130%;
     color: var(--light);
-    z-index: 100;
-
+    right: 50px;
+    bottom: 107px;
+    margin-left: 10px;
 }
 
-#menu{
+#down-arrow{
+    position: fixed;
+    left: 25px;
+    top:423px;
+    font-size: 175%;
+    color: var(--light);
+}
+
+.menu{
     background-color: var(--color);
-    position: absolute;
+    position: fixed;
     z-index: 100;
     width: 375px;
     height: 424px;
@@ -75,9 +93,6 @@ footer{
     flex-direction: column;
 }
 
-.hide{
-    display: none;
-}
 
 .menu-buttons{
     width: 125px;
@@ -87,6 +102,7 @@ footer{
     margin-top: 1rem;
     border-radius: 50px;
     border: none;
+    font-weight: 900;
 }
 
 .menu-buttons:hover{
