@@ -11,6 +11,21 @@
     --otherDark: #2B2135;
 }
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
 body{
     font-size: 20px;
     background-color: var(--dark);
