@@ -16,19 +16,21 @@
 }
 
 
-.welcome{
+.welcome, .showcase{
     height: 815px;
     position: relative;
     
 }
 
 
-#name-text, #location-text, #greeting-text{
+
+
+#name-text, #location-text, #greeting-text, #showcase-heading{
     font-size: 185%;
     margin: 0 1.5rem;
 }
 
-#location-text{
+#location-text,{
     margin-top: 2rem;
 }
 
@@ -39,7 +41,7 @@ footer{
 
 #nav-btn{
     position: fixed;
-    bottom: 100px;
+    bottom: 40px;
     background-color: var(--color);
     color: var(--light);
     border-radius: 50px;

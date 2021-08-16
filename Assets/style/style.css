@@ -173,5 +173,15 @@ footer img{
     padding: 0 0 2rem 0;
 }
 
+#showcase-heading{
+    margin-top: 1rem;
+}
+
+#showcase-text{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0;
+}
+
 
 
