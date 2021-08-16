@@ -16,7 +16,7 @@
 }
 
 
-.welcome, .showcase{
+.welcome, .showcase, .contact{
     height: 815px;
     position: relative;
     
@@ -30,7 +30,7 @@
     margin: 0 1.5rem;
 }
 
-#location-text,{
+#location-text{
     margin-top: 2rem;
 }
 
@@ -58,6 +58,7 @@ footer{
     align-items: center;
     cursor: pointer;
     text-align: center;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.9);
 }
 
 #avatar{

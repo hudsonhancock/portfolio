@@ -1,0 +1,41 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --modern: 'Roboto', sans-serif;;
+    --dark: #110022;
+    --color: #7F00FF;
+    --light: #fff;
+    --otherDark: #2B2135;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.card4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color);
+    height: 275px;
+    margin: 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#icon{
+    color:var(--light);
+    font-size: 200%;
+}
+
+#contact-info{
+    background-color: var(--otherDark);
+    font-weight: 300;
+    padding: 1rem;
+    border-radius: 25px;
+    font-size: 100%;
+}

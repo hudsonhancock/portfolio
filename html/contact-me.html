@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Assets/style/style.css">
-    <link rel="stylesheet" href="./Assets/style/home.css">
-    <title>Hudson Hancock</title>
+    <link rel="stylesheet" href="../Assets/style/contact.css">
+    <link rel="stylesheet" href="../Assets/style/home.css">
+    <link rel="stylesheet" href="../Assets/style/style.css">
+    <title>Contact Me | Hudson Hancock</title>
 </head>
 
 
@@ -17,29 +18,38 @@
     <button id="nav-btn">Open Menu<i id="up-arrow" class="fas fa-arrow-alt-circle-up"></i></button>
     <div class="menu invisible">
         <i id="down-arrow" class="fas fa-arrow-alt-circle-down"></i>
-        <a class="menu-buttons" href="./html/about-me.html">About</a>
+        <a class="menu-buttons" href="./about-me.html">About</a>
         <a href="./html/showcase.html" class="menu-buttons">Showcase</a>
-        <a href="./html/contact-me.html" class="menu-buttons">Contact</a>
+        <a href="../index.html" class="menu-buttons">Home</a>
     </div>
 
-    <section class="welcome">
+    <section class="contact">
         <nav>
-            <a href="./index.html">
-                <img id="logo" src="./Assets/Images/h_logo.png"
+            <a href="../index.html">
+                <img id="logo" src="../Assets/Images/h_logo.png"
                     alt="Hudson's logo. White circle with uppercase H in the middle">
             </a>
 
         </nav>
-        <h2 id="greeting-text" class="text-color">Hello there.</h2>
-        <h2 id="name-text" class="text-color">My name is <span class="text-light">Hudson Hancock.</span></h2>
-        <h2 class="text-color" id="location-text">I am a web developer from <span class="text-light"> Atlanta Ga.</span>
-        </h2>
-        <img id="avatar" src="./Assets/Images/hudson-avatar-happy.png" alt="">
+        <a href="tel:7704908280">
+            <div class="card4">
+                <i id="icon" class="fas fa-mobile"></i>
+                <h3 id="contact-info" class="text-light">770-490-8280</h3>
+            </div>
+        </a>
+
+        <a href="mailto:hudsonhancock@gmail.com">
+            <div class="card4">
+                <i id="icon" class="fas fa-envelope"></i>
+                <h3 id="contact-info" class="text-light">HudsonWebDev@gmail.com</h3>
+            </div>
+        </a>
+
     </section>
 
     <footer class="">
         <div class="footer-row">
-            <img src="./Assets/Images/h_logo.png" alt="Hudson's logo. White circle with uppercase H in the middle">
+            <img src="../Assets/Images/h_logo.png" alt="Hudson's logo. White circle with uppercase H in the middle">
             <h4 class="text-light">Hudson</h4>
 
         </div>
@@ -52,11 +62,9 @@
         </div>
     </footer>
 
-    <canvas class="background"></canvas>
-    <script src=" https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="Assets/script/home-nav.js"></script>
+    <script src="../Assets/script/contact-me-nav.js"></script>
 
 </body>
 
