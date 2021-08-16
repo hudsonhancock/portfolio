@@ -97,7 +97,7 @@ nav{
 /* ------------------------------- */
 
 .about-intro{
-    height: 475px;
+    height: 70vh;
     width: 100%;
     padding: 0 0rem;
     margin-top: 0rem;
@@ -107,7 +107,7 @@ nav{
 
 .card{
     background-color: var(--light);
-    margin: 0 1rem;
+    margin: 5rem 1rem;
     border-radius: 50px;
     padding: 2rem;
 }
@@ -123,12 +123,14 @@ nav{
 }
 
 #about-heading{
-    margin-top: 1rem;
-    margin: 0 2rem;
+    margin: 1rem 10%;
+    font-size: 200%;
+
 }
 
 #about-text{
-    margin:0 2rem;
+    font-size: 100%;
+    margin: 0 10%;
 }
 
 .card3{
