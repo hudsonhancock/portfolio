@@ -1,6 +1,7 @@
 *{
     margin: 0; padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 :root {
@@ -90,6 +91,7 @@ nav{
 
 #logo{
     margin:20px;
+    z-index: 100;
 }
 
 /* ------------------------------- */
@@ -120,9 +122,8 @@ nav{
     margin-top: 2rem;
 }
 
-
-.see-my-work{
-    background-color:;
+#about-heading{
+    margin-top: 11rem;
 }
 
 .card3{
@@ -148,7 +149,7 @@ nav{
 
 
 footer{
-    height: 280px;
+    height: 600px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -166,6 +167,10 @@ footer img{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.get-to-know-me{
+    padding: 0 0 2rem 0;
 }
 
 
