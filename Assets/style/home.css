@@ -75,11 +75,11 @@ footer{
 }
 
 #down-arrow{
-    position: fixed;
-    left: 25px;
-    top:423px;
     font-size: 175%;
     color: var(--light);
+    position: relative;
+    right: 140px;
+    bottom: 75px;
 }
 
 .menu{
