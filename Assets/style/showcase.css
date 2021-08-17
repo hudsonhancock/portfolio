@@ -15,7 +15,7 @@
     width: 300px;
     height: 400px;
     background-color:var(--light);
-    border-radius: 20%;
+    border-radius: 20px;
     margin-top: 3.5rem;
   }
 
@@ -47,4 +47,33 @@
     color: var(--color);
     cursor: pointer;
     margin: 1rem 1rem;
+}
+
+
+
+@media screen and (min-width: 768px){
+    #showcase-heading{
+        font-size: 400%;
+        width: 1000px;
+        margin: 1rem 10%
+
+    }
+
+    #showcase-text{
+        font-size: 130%;
+        width: 70%;
+
+        margin: 1rem 10%
+    }
+
+    .swiper-container {
+        width: 700px;
+        height: 450px;
+      }
+    
+      .swiper-slide{
+          display:flex;
+      }
+    
+
 }

@@ -88,7 +88,7 @@ ul{
 .logo-container{
     height: 100px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     
 }
@@ -260,6 +260,14 @@ footer img{
 
     #gt-text, #lee-text{
         text-align: center;
+    }
+
+    .logo-container{
+        height: 100px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        
     }
 }
 
