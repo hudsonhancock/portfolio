@@ -49,6 +49,7 @@ body{
 #name-text, #location-text, #greeting-text, #showcase-heading{
     font-size: 185%;
     margin: 0 1.5rem;
+    text-align: center;
 }
 
 #location-text{
@@ -171,13 +172,20 @@ footer{
 
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 990px){
     main{
         flex-direction: row;
     }
     .home-container{
         justify-content: center;
         align-items: center;
+        margin: 0 5rem;
+    }
+
+    #name-text, #location-text{
+        font-size: 275%;
+        text-align: left;
+        
     }
     .text{
         display: flex;
@@ -239,4 +247,12 @@ footer{
         /* width: 1000px; */
         text-align: left;
     }
+}
+/* 
+@media screen and (max-width: 1048px) {
+    #name-text, #location-text{
+        font-size: 100%;
+        text-align: left;
+    } */
+    
 }

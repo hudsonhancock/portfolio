@@ -11,6 +11,27 @@
     --otherDark: #2B2135;
 }
 
+#showcase-text{
+    text-align: center;
+    margin: 0 10%;
+}
+
+#swipe{
+    width: 40px;
+    position: absolute;
+    left: 50%;
+    /* margin-top: 1rem; */
+    transform: translate(-50%);
+}
+
+#instruction{
+    margin: 0 10%;
+    font-size: 70%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: .5rem;
+}
+
 .swiper-container {
     width: 300px;
     height: 400px;
@@ -55,14 +76,15 @@
     #showcase-heading{
         font-size: 400%;
         width: 1000px;
-        margin: 1rem 10%
+        margin: 1rem 10%;
+        text-align: left;
 
     }
 
     #showcase-text{
         font-size: 130%;
         width: 70%;
-
+        text-align: left;
         margin: 1rem 10%
     }
 
@@ -74,6 +96,11 @@
       .swiper-slide{
           display:flex;
       }
+      #instruction{
+        text-align: left;
+   
+    }
+
     
 
 }
