@@ -6,8 +6,8 @@ $(document).ready(function () {
     $(".about-intro").addClass("blur");
     $(".get-to-know-me").addClass("blur");
     $(".see-my-work").addClass("blur");
-    $(".lee").addClass("blur");
-    $(".gt-bootcamp").addClass("blur");
+    $(".card2").addClass("blur");
+    $(".card").addClass("blur");
     $("footer").addClass("blur");
 
     $("#nav-btn").addClass("invisible");
@@ -18,8 +18,8 @@ $(document).ready(function () {
     $(".about-intro").removeClass("blur");
     $(".get-to-know-me").removeClass("blur");
     $(".see-my-work").removeClass("blur");
-    $(".lee").removeClass("blur");
-    $(".gt-bootcamp").removeClass("blur");
+    $(".card2").removeClass("blur");
+    $(".card").removeClass("blur");
     $("footer").removeClass("blur");
     $(".menu").addClass("invisible");
 

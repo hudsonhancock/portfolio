@@ -18,14 +18,14 @@
 
 .showcase, .contact, .welcome{
     height: 100vh;
-    position: relative;
+    /* position: relative; */
 }
 
 .home-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80%;
+    height: 80vh;
 }
 
 .avatar-container{
@@ -37,6 +37,10 @@
 main{
     display: flex;
     flex-direction: column;
+}
+
+body{
+
 }
 
 
@@ -114,8 +118,7 @@ footer{
     justify-content: center;
     align-items: center;
     opacity: 1;
-
-
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.9);
 }
 
 .down-btn-container{
@@ -189,6 +192,7 @@ footer{
     .menu{
         flex-direction: column;
         justify-content: space-evenly;
+        width: 100%;
     }
     .menu-btn-container{
         height: 300px;

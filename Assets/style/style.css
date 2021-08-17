@@ -85,13 +85,29 @@ ul{
 
 /* ------------------------------- */
 
-nav{
+.logo-container{
     height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo-container a {
+    cursor: pointer;
 }
 
 #logo{
     margin:20px;
     z-index: 100;
+}
+
+#linkedin, #github, #h-logo{
+font-size: 200%;
+margin: 1rem;
+}
+
+#linkedin:hover, #github:hover, #h-logo:hover {
+    color: var(--color)
 }
 
 /* ------------------------------- */
