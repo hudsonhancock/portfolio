@@ -14,4 +14,17 @@ $(document).ready(function () {
     $("footer").removeClass("blur");
     $("#nav-btn").removeClass("invisible");
   });
+
+  $("#eyesClosed").hide();
+  $("#eyesOpen").show();
+
+  $("#eyesOpen").mouseover(() => {
+    $("#eyesOpen").hide();
+    $("#eyesClosed").show();
+  });
+
+  $("#eyesClosed").mouseout(() => {
+    $("#eyesClosed").hide();
+    $("#eyesOpen").show();
+  });
 });
