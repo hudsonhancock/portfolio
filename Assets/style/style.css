@@ -102,13 +102,21 @@ ul{
     z-index: 100;
 }
 
-#linkedin, #github, #h-logo{
+#linkedin, #github, #h-logo, #resume{
 font-size: 200%;
 margin: 1rem;
 }
 
-#linkedin:hover, #github:hover, #h-logo:hover {
+#linkedin:hover, #github:hover, #h-logo:hover, #resume:hover {
     color: var(--color)
+}
+
+#resume{
+    color: var(--light);
+}
+
+#resume:hover{
+    color: var(--color);
 }
 
 /* ------------------------------- */
