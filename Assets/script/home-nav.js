@@ -15,16 +15,13 @@ $(document).ready(function () {
     $("#nav-btn").removeClass("invisible");
   });
 
-  $("#eyesClosed").hide();
-  $("#eyesOpen").show();
-
   $("#eyesOpen").mouseover(() => {
-    $("#eyesOpen").hide();
-    $("#eyesClosed").show();
+    $("#eyesOpen").addClass("none");
+    $("#eyesClosed").removeClass("none")
   });
 
   $("#eyesClosed").mouseout(() => {
-    $("#eyesClosed").hide();
-    $("#eyesOpen").show();
+    $("#eyesOpen").removeClass("none");
+    $("#eyesClosed").addClass("none")
   });
 });
