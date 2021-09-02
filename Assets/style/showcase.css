@@ -11,17 +11,13 @@
     --otherDark: #2B2135;
 }
 
+.showcase{
+    height:2800px;
+}
+
 #showcase-text{
     text-align: center;
     margin: 0 10%;
-}
-
-#swipe{
-    width: 40px;
-    position: absolute;
-    left: 50%;
-    /* margin-top: 1rem; */
-    transform: translate(-50%);
 }
 
 #instruction{
@@ -32,38 +28,42 @@
     margin-top: .5rem;
 }
 
-.swiper-container {
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     width: 300px;
     height: 400px;
+    padding: 1rem;
     background-color:var(--light);
     border-radius: 20px;
-    margin-top: 3.5rem;
+    margin-top: 150px;
   }
 
-  .swiper-slide{
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding: 2rem;
-      text-align: center;
-  }
-
-  .swiper-slide img{
-      width: 100%;
+  .showcase-card img{
+      width: 90%;
       border-radius: 20px;
   }
 
-  .swiper-slide h4{
+  .showcase-card h4{
     margin-top:1rem;
 }
 
-#links{
+.links{
     display: flex;
     flex: row;
+    justify-content: center;
 }
 
-#links i{
+.links i{
     font-size: 200%;
     color: var(--color);
     cursor: pointer;
@@ -81,6 +81,11 @@
 
     }
 
+    /* .swiper-wrapper{
+        display: flex;
+        justify-content: center;
+    } */
+
     #showcase-text{
         font-size: 130%;
         width: 70%;
@@ -88,19 +93,19 @@
         margin: 1rem 10%
     }
 
-    .swiper-container {
+    .showcase-card {
         width: 700px;
         height: 450px;
+        padding: 2rem;
       }
     
-      .swiper-slide{
-          display:flex;
-      }
+      .showcase{
+        height: 3200px;
+    }
+
       #instruction{
         text-align: left;
    
     }
-
-    
 
 }

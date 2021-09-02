@@ -23,8 +23,6 @@ const swiper = new Swiper(".swiper-container", {
   // Optional parameters
   direction: "horizontal",
   loop: false,
-  slidesPerView: 1.1,
-  centeredSlides: true,
   spaceBetween: 10,
   keyboard: {
     enabled: true,

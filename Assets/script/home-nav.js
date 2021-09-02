@@ -15,13 +15,13 @@ $(document).ready(function () {
     $("#nav-btn").removeClass("invisible");
   });
 
-  $("#eyesOpen").mouseover(() => {
-    $("#eyesOpen").addClass("none");
-    $("#eyesClosed").removeClass("none")
-  });
+  // $("#eyesOpen").mouseover(() => {
+  //   $("#eyesOpen").addClass("none");
+  //   $("#eyesClosed").removeClass("none")
+  // });
 
-  $("#eyesClosed").mouseout(() => {
-    $("#eyesOpen").removeClass("none");
-    $("#eyesClosed").addClass("none")
-  });
+  // $("#eyesClosed").mouseout(() => {
+  //   $("#eyesOpen").removeClass("none");
+  //   $("#eyesClosed").addClass("none")
+  // });
 });
